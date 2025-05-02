@@ -1,0 +1,62 @@
+
+# How to Run InstaBook
+
+Follow these steps to get **InstaBook** up and running on your local machine:
+
+### Prerequisites
+
+* **XAMPP** (or **WAMP** or **MAMP**) installed on your machine.
+
+### Steps to Run InstaBook:
+
+1. **Download the Project Files:**
+
+   * Download the InstaBook project files from the GitHub repository or the provided source.
+
+2. **Install XAMPP:**
+
+   * If you haven’t already, download and install **XAMPP** from [here](https://www.apachefriends.org/index.html).
+   * Once installed, launch **XAMPP Control Panel**.
+
+3. **Start Apache and MySQL:**
+
+   * In the XAMPP Control Panel, click on **Start** for both **Apache** and **MySQL**. This will start the local web server and the MySQL database.
+
+4. **Access phpMyAdmin:**
+
+   * Open your browser and go to [http://localhost/phpmyadmin](http://localhost/phpmyadmin).
+   * This will open the **phpMyAdmin** interface for managing your MySQL databases.
+
+5. **Create the Database:**
+
+   * In **phpMyAdmin**, click on **Databases** in the top menu.
+   * In the "Database name" field, enter **socialdb** and click **Create**.
+
+6. **Import the Database:**
+
+   * After creating the database, click on the **socialdb** database from the left panel.
+   * Click on the **Import** tab.
+   * Select the database file `socialdb.sql` from the project folder and click **Go** to import it into your database.
+
+7. **Configure Database Connection:**
+
+   * Navigate to the **config.php** file in the project folder.
+   * Update the database credentials to match your local setup (typically, the username will be `root` and the password will be blank, unless you've configured it differently).
+
+8. **Run the Project:**
+
+   * Now, move the downloaded project folder to the `htdocs` directory (for XAMPP) or the `www` directory (for WAMP or MAMP).
+
+     * For XAMPP, the `htdocs` directory is typically located at `C:\xampp\htdocs\`.
+   * Open your browser and go to [http://localhost/instabook](http://localhost/instabook) (replace `instabook` with the folder name if you renamed the project folder).
+   * This should load the InstaBook project in your browser.
+
+---
+
+### Troubleshooting:
+
+* If you encounter any issues, make sure **Apache** and **MySQL** are running in XAMPP.
+* Ensure that the database import process is completed without errors in **phpMyAdmin**.
+
+---
+For any assistance contact.
