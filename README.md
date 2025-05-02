@@ -38,3 +38,11 @@ http://localhost/instabook/
 
 Contributing
 Feel free to fork this project and submit pull requests. Please make sure to follow the existing code style and structure.
+
+![image](https://github.com/user-attachments/assets/c05ca783-48e7-4017-86b8-fb243cd59882)
+![image](https://github.com/user-attachments/assets/672165ec-cb1a-4552-a280-21a238db961e)
+![image](https://github.com/user-attachments/assets/6d7c9675-a009-487f-b130-af221d2b096e)
+![image](https://github.com/user-attachments/assets/b689999e-dd9a-4379-ac5a-e0bbfe11b883)
+![image](https://github.com/user-attachments/assets/79f8e722-d6fd-4fe3-a040-3cb5890dc7d3)
+
+
